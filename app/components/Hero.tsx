@@ -37,6 +37,9 @@ const StyledBox = styled('div')(({ theme }) => ({
 }));
 
 export default function Hero() {
+
+  
+
   return (
     <Box
       id="hero"
@@ -75,7 +78,7 @@ export default function Hero() {
               fontSize: 'clamp(3rem, 10vw, 3.5rem)',
             }}
           >
-            Our&nbsp;latest&nbsp;
+            Code&nbsp;
             <Typography
               component="span"
               variant="h1"
@@ -87,7 +90,7 @@ export default function Hero() {
                 }),
               })}
             >
-              products
+              Disnasty
             </Typography>
           </Typography>
           <Typography
@@ -97,9 +100,8 @@ export default function Hero() {
               width: { sm: '100%', md: '80%' },
             }}
           >
-            Explore our cutting-edge dashboard, delivering high-quality solutions
-            tailored to your needs. Elevate your experience with top-tier features
-            and services.
+            Explore nuestro panel de control de vanguardia, que ofrece soluciones de alta calidad
+            adaptadas a sus necesidades. Mejore su experiencia con funciones y servicios de primer nivel.
           </Typography>
           <Stack
             direction={{ xs: 'column', sm: 'row' }}
@@ -115,13 +117,13 @@ export default function Hero() {
               hiddenLabel
               size="small"
               variant="outlined"
-              aria-label="Enter your email address"
-              placeholder="Your email address"
+              aria-label="Introduzca su dirección de correo electrónico"
+              placeholder="Correo electrónico"
               fullWidth
               slotProps={{
                 htmlInput: {
                   autoComplete: 'off',
-                  'aria-label': 'Enter your email address',
+                  'aria-label': 'Introduzca su dirección de correo electrónico',
                 },
               }}
             />
@@ -131,7 +133,7 @@ export default function Hero() {
               size="small"
               sx={{ minWidth: 'fit-content' }}
             >
-              Start now
+              Comenzar ahora
             </Button>
           </Stack>
           <Typography
@@ -139,9 +141,9 @@ export default function Hero() {
             color="text.secondary"
             sx={{ textAlign: 'center' }}
           >
-            By clicking &quot;Start now&quot; you agree to our&nbsp;
+            Al hacer clic en &quot;Comenzar ahora&quot; acepta nuestros&nbsp;
             <Link href="#" color="primary">
-              Terms & Conditions
+            Términos y condiciones
             </Link>
             .
           </Typography>
